@@ -48,12 +48,13 @@ while True:
     elif a == "2":
     
         cursor.execute(query_update)
+        
     elif a == "3":
 
         cursor.execute(query_delete)
-        print(b)
+        
     elif a == "4":
-        query_select = """ SELECT * FROM dept_locations ;"""
+        query_select = """ SELECT * FROM employee ;"""
         cursor.execute(query_select)
         b = cursor.fetchall()
     
@@ -66,3 +67,5 @@ while True:
         print(b)
     else:
         print("Escolha um opção valida!!!!!")
+
+    connect.commit()
