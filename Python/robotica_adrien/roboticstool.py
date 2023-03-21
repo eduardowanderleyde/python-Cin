@@ -24,5 +24,5 @@ q2=solution2[0]
 print(q2)
 
 T3=SE3(0.3031,11.707,0)
-solution3= robot.ikine.LM(T3)
+solution3= robot.ikine_LM(T3)
 print(solution3)
