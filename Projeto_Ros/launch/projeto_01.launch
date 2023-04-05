@@ -1,0 +1,7 @@
+<launch>
+    <node name="camera_1" pkg="projeto_01"
+    type="camera.py" output="screen"/>
+    <node name="dupla_1" pkg="projeto_01"
+    type="main.py" output="screen"/>
+
+</launch>
