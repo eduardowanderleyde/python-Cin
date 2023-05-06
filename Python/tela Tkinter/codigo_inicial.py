@@ -15,5 +15,6 @@ def pegar_cotacoes():
     BTC: {cotacao_btc}'''
 
     print(texto)
+#ok
 
 pegar_cotacoes()
